@@ -34,8 +34,8 @@ class _DicePageState extends State<DicePage> {
   int right = 1;
   void change() {
     setState(() {
-      left = Random().nextInt(6) + 1;
       right = Random().nextInt(6) + 1;
+      left = Random().nextInt(6) + 1;
     });
   }
 
